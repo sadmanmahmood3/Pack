@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    font-style: italic;
+    font-size: 40px;
+    color: #c65882;    /* size of the heading inside the header */
+}
+
+nav a {
+    color: rgb(204, 30, 30);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(25, 115, 49);
+}
+
+section {
+    background: rgb(136, 105, 105);
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
