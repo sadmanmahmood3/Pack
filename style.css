@@ -34,7 +34,31 @@ header h1 {
     border-radius: 20px;          /* very round corners, making a pill shape */
     font-size: 14px;              /* slightly smaller text */
 }
+.projects-grid {
+    display: flex;              /* cards in a row */
+    flex-wrap: wrap;            /* new line if no room */
+    gap: 15px;                  /* space between cards */
+}
 
+.card {
+    flex: 1 1 200px;            /* share the row equally, ~200px each */
+    background: white;
+    color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);   /* soft shadow */
+    transition: transform 0.2s;                /* smooth hover */
+}
+
+.card:hover {
+    transform: translateY(-4px);   /* lift card on hover */
+}
+
+.card a {
+    color: #c65882;             /* pink link */
+    font-weight: bold;
+    text-decoration: none;
+}
 nav a {
     color: rgb(204, 30, 30);
     text-decoration: none;
