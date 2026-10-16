@@ -19,6 +19,21 @@ header h1 {
     color: #b32e61; 
     font-weight: 300;   /* size of the heading inside the header */
 }
+.skills-list {                    /* the dot means "class" */
+    display: flex;                /* put the skills in a row */
+    flex-wrap: wrap;              /* if there's no room, move items to the next line */
+    gap: 10px;                    /* 10px of space between each box */
+    list-style: none;             /* remove the bullet points */
+    padding: 0;                   /* remove the default left indent of lists */
+}
+
+.skills-list li {                 /* each skill inside that list */
+    background-color: #1e293b;    /* dark navy box, same as the header */
+    color: white;                 /* white text */
+    padding: 8px 16px;            /* 8px top/bottom, 16px left/right inside the box */
+    border-radius: 20px;          /* very round corners, making a pill shape */
+    font-size: 14px;              /* slightly smaller text */
+}
 
 nav a {
     color: rgb(204, 30, 30);
