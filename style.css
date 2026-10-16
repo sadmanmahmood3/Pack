@@ -16,7 +16,8 @@ header {
 header h1 {
     font-style: italic;
     font-size: 40px;
-    color: #c65882;    /* size of the heading inside the header */
+    color: #b32e61; 
+    font-weight: 300;   /* size of the heading inside the header */
 }
 
 nav a {
