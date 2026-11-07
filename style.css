@@ -78,3 +78,18 @@ section {
     padding: 20px;
     border-radius: 8px;
 }
+@media (max-width: 600px) {          /* these rules apply only when the screen is 600px wide or less */
+
+    header {
+        flex-direction: column;       /* stack heading and nav vertically instead of side by side */
+        gap: 10px;                    /* space between heading and nav */
+    }
+
+    header h1 {
+        font-size: 28px;              /* smaller heading on phones */
+    }
+
+    section {
+        margin: 10px;                 /* smaller gap around sections */
+    }
+}
