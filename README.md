@@ -1,4 +1,4 @@
 # Pack
 
 
-a practice document. Revisiting the basics of html,css etc.
+a practice document. Revisiting the basics of html,css etc. helpful
