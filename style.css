@@ -89,7 +89,12 @@ body.dark .card {                 /* sections and cards in dark mode */
     color: #eee;
 }
 
-
+#theme-btn {                      /* the button itself */
+    background: none;             /* no grey box */
+    border: none;                 /* no border */
+    font-size: 22px;              /* bigger icon */
+    cursor: pointer;              /* hand cursor on hover */
+}
 @media (max-width: 600px) {          /* these rules apply only when the screen is 600px wide or less */
 
     header {
